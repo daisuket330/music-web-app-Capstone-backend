@@ -14,7 +14,7 @@ class Song(models.Model):
     release_date = models.DateTimeField()
     genre = models.CharField(max_length=50)
     likes = models.IntegerField(default=0)
-    Song_id= models.TextField(blank=True, null=True, max_length=500)
+    song_id= models.TextField(blank=True, null=True, max_length=500)
     
     def __str__(self):
         return self.Song
