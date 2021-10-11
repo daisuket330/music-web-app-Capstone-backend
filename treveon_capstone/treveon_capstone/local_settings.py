@@ -1,4 +1,5 @@
-SECRET_KEY = 'django-insecure-innv-nvp_5b-ly34fwmlp!6+7445c5*#vdoizulu=-n!j51cn0'
+# SECURITY WARNING: keep the secret key used in production secret!
+SECRET_KEY = 'django-insecure-iq(qiajr&7*39ux4r^iz3cxas^k6klh((01l0u)riwkr(gm#p4'
 
 
 DATABASES = {
